@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select the chords you want to learn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+ <!-- Genre, Level, and Skills -->
+ <h2>Select Preferences</h2>
+ <label for="genre">Genre:</label>
+ <select id="genre" name="genre">
+     <option value="rock">Rock</option>
+     <option value="pop">Pop</option>
+     <option value="alternative">Alternative</option>
+ </select>
+
+ <label for="level">Level:</label>
+ <select id="level" name="level">
+     <option value="easy">Easy</option>
+     <option value="medium">Medium</option>
+     <option value="Hard">Hard</option>
+ </select>
+
+ <label for="skill">Technique/Skill:</label>
+ <select id="skill" name="skill" multiple>
+     <option value="barre">Barre Chords</option>
+     <option value="strumming">Strumming Patterns</option>
+     <option value="fingerpicking">Fingerpicking</option>
+ </select>
+
+ <button type="submit">Find Songs</button>
